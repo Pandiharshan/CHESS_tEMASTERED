@@ -49,7 +49,7 @@ class ChessPieceWidget extends StatelessWidget {
       decoration: isSelected
           ? BoxDecoration(
               border: Border.all(color: AppColors.white, width: 3),
-              color: AppColors.grey,
+              color: AppColors.gray,
             )
           : null,
       child: FittedBox(
@@ -60,7 +60,7 @@ class ChessPieceWidget extends StatelessWidget {
             piece.unicode,
             style: TextStyle(
               fontSize: 40,
-              color: piece.isWhite ? AppColors.white : AppColors.darkGrey,
+              color: piece.isWhite ? AppColors.white : AppColors.darkGray,
               shadows: [
                 Shadow(
                   color: piece.isWhite ? AppColors.black : AppColors.white,

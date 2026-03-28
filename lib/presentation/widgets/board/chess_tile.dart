@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../../core/constants/app_colors.dart';
-import 'chess_piece.dart';
+import 'vector_chess_pieces.dart';
 
 class ChessTileFloor extends StatelessWidget {
   final bool isWhiteTile;
@@ -22,7 +22,7 @@ class ChessTileFloor extends StatelessWidget {
         decoration: BoxDecoration(
           color: isWhiteTile ? AppColors.white : AppColors.black,
           border: Border.all(
-            color: isSelected ? AppColors.grey : AppColors.white.withValues(alpha: 0.1),
+            color: isSelected ? AppColors.gray : AppColors.white.withValues(alpha: 0.1),
             width: isSelected ? 4.0 : 1.0,
           ),
         ),
@@ -103,9 +103,14 @@ class _ChessTilePieceInteractionState extends State<ChessTilePieceInteraction> w
         if (widget.pieceType != null && widget.isPieceWhite != null)
           ScaleTransition(
             scale: _pulseAnimation,
-            child: ChessPiece(
-              pieceType: widget.pieceType!,
-              isWhite: widget.isPieceWhite!,
+            child: AspectRatio(
+              aspectRatio: 1,
+              child: ChessPiece(
+                type: widget.pieceType!,
+                isWhite: widget.isPieceWhite!,
+                size: 40,
+                isSelected: widget.isSelected,
+              ),
             ),
           ),
       ],

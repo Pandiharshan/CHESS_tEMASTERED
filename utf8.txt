@@ -1,0 +1,47 @@
+Analyzing lib...                                                
+
+warning - The value of the field '_engineSendPort' isn't used - lib\core\controllers\ai_controller.dart:7:13 - unused_field
+warning - The value of the local variable 'isHint' isn't used - lib\core\controllers\ai_controller.dart:62:10 - unused_local_variable
+  error - A value of type 'List<int>?' can't be assigned to a variable of type 'int?' - lib\core\controllers\ai_controller.dart:68:21 - invalid_assignment
+  error - Too many positional arguments: 1 expected, but 2 found - lib\core\controllers\game_controller.dart:94:34 - extra_positional_arguments
+  error - The method 'squareToNotation' isn't defined for the type 'GameState' - lib\core\controllers\game_controller.dart:121:37 - undefined_method
+  error - The method 'squareToNotation' isn't defined for the type 'GameState' - lib\core\controllers\game_controller.dart:121:79 - undefined_method
+warning - Dead code - lib\presentation\screens\game\game_screen.dart:74:61 - dead_code
+warning - The left operand can't be null, so the right operand is never executed - lib\presentation\screens\game\game_screen.dart:74:64 - dead_null_aware_expression
+  error - The method 'popSnapshot' isn't defined for the type 'GameState' - lib\presentation\screens\game\game_screen.dart:115:23 - undefined_method
+  error - The method 'popSnapshot' isn't defined for the type 'GameState' - lib\presentation\screens\game\game_screen.dart:117:25 - undefined_method
+  error - Invalid constant value - lib\presentation\screens\game\game_screen.dart:120:99 - invalid_constant
+  error - The getter 'bodyText' isn't defined for the type 'AppTextStyles' - lib\presentation\screens\game\game_screen.dart:120:113 - undefined_getter
+  error - Invalid constant value - lib\presentation\screens\game\game_screen.dart:138:47 - invalid_constant
+  error - The getter 'heading2' isn't defined for the type 'AppTextStyles' - lib\presentation\screens\game\game_screen.dart:138:61 - undefined_getter
+  error - The getter 'bodyText' isn't defined for the type 'AppTextStyles' - lib\presentation\screens\game\game_screen.dart:139:53 - undefined_getter
+  error - Invalid constant value - lib\presentation\screens\game\game_screen.dart:150:49 - invalid_constant
+  error - Invalid constant value - lib\presentation\screens\game\game_screen.dart:165:47 - invalid_constant
+  error - The getter 'heading1' isn't defined for the type 'AppTextStyles' - lib\presentation\screens\game\game_screen.dart:165:61 - undefined_getter
+  error - The getter 'grey' isn't defined for the type 'AppColors' - lib\presentation\screens\game\game_screen.dart:230:53 - undefined_getter
+  error - Invalid constant value - lib\presentation\screens\game\game_screen.dart:276:47 - invalid_constant
+  error - The getter 'bodyText' isn't defined for the type 'AppTextStyles' - lib\presentation\screens\game\game_screen.dart:276:61 - undefined_getter
+  error - The getter 'bodyText' isn't defined for the type 'AppTextStyles' - lib\presentation\screens\game\game_screen.dart:280:40 - undefined_getter
+  error - Invalid constant value - lib\presentation\screens\game\game_screen.dart:294:50 - invalid_constant
+  error - The getter 'bodyText' isn't defined for the type 'AppTextStyles' - lib\presentation\screens\game\game_screen.dart:294:64 - undefined_getter
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\presentation\screens\game\game_screen.dart:297:23 - deprecated_member_use
+  error - The getter 'grey' isn't defined for the type 'AppColors' - lib\presentation\screens\game\game_screen.dart:298:51 - undefined_getter
+  error - The getter 'grey' isn't defined for the type 'AppColors' - lib\presentation\screens\game\game_screen.dart:299:53 - undefined_getter
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\presentation\screens\settings\settings_screen.dart:73:9 - deprecated_member_use
+  error - Target of URI doesn't exist: '../../core/constants/app_colors.dart' - lib\presentation\widgets\board\chess_board_widget.dart:2:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../core/engine/game_state.dart' - lib\presentation\widgets\board\chess_board_widget.dart:3:8 - uri_does_not_exist
+  error - Target of URI doesn't exist: '../../core/controllers/game_controller.dart' - lib\presentation\widgets\board\chess_board_widget.dart:4:8 - uri_does_not_exist
+  error - Undefined class 'GameController' - lib\presentation\widgets\board\chess_board_widget.dart:8:9 - undefined_class
+  error - Undefined name 'AppColors' - lib\presentation\widgets\board\chess_board_widget.dart:27:39 - undefined_identifier
+  error - Undefined name 'AppColors' - lib\presentation\widgets\board\chess_board_widget.dart:28:20 - undefined_identifier
+  error - Invalid constant value - lib\presentation\widgets\board\chess_board_widget.dart:59:69 - invalid_constant
+  error - Undefined name 'AppColors' - lib\presentation\widgets\board\chess_board_widget.dart:59:69 - undefined_identifier
+  error - Undefined name 'GameState' - lib\presentation\widgets\board\chess_board_widget.dart:74:14 - undefined_identifier
+  error - Undefined name 'AppColors' - lib\presentation\widgets\board\chess_board_widget.dart:83:33 - undefined_identifier
+  error - Undefined name 'AppColors' - lib\presentation\widgets\board\chess_board_widget.dart:83:51 - undefined_identifier
+  error - Undefined name 'AppColors' - lib\presentation\widgets\board\chess_board_widget.dart:86:25 - undefined_identifier
+  error - Undefined name 'AppColors' - lib\presentation\widgets\board\chess_board_widget.dart:88:37 - undefined_identifier
+  error - Undefined name 'AppColors' - lib\presentation\widgets\board\chess_board_widget.dart:98:67 - undefined_identifier
+warning - The value of the local variable 'sqIndex' isn't used - lib\presentation\widgets\board\chess_board_widget.dart:114:13 - unused_local_variable
+  error - Undefined name 'GameState' - lib\presentation\widgets\board\chess_board_widget.dart:119:28 - undefined_identifier
+

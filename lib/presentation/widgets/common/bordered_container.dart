@@ -18,7 +18,7 @@ class BorderedContainer extends StatelessWidget {
       decoration: BoxDecoration(
         color: Colors.transparent,
         border: Border.all(
-          color: AppColors.border,
+          color: AppColors.white,
           width: 2.0,
         ),
         borderRadius: BorderRadius.zero,

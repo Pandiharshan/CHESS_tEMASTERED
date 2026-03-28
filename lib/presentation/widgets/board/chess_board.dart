@@ -110,7 +110,7 @@ class _ChessBoardState extends State<ChessBoard> {
               onTap: () => _handleTap(index),
               child: Container(
                 color: isSelected
-                    ? AppColors.grey
+                    ? AppColors.gray
                     : (isWhiteTile ? AppColors.white : AppColors.black),
                 child: piece != null
                     ? ChessPieceWidget(piece: piece, isSelected: isSelected)

@@ -67,7 +67,7 @@ class _PrimaryButtonState extends State<PrimaryButton> with SingleTickerProvider
           child: Container(
             padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 14),
             decoration: BoxDecoration(
-              color: _isHovered ? AppColors.darkGrey : AppColors.black,
+              color: _isHovered ? AppColors.darkGray : AppColors.black,
               border: Border.all(
                 color: AppColors.white,
                 width: 2.0,

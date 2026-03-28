@@ -1,22 +1,35 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'app_colors.dart';
 
 class AppTextStyles {
-  AppTextStyles._();
+  static TextStyle get headline => GoogleFonts.courierPrime(
+        fontSize: 28,
+        fontWeight: FontWeight.bold,
+        color: AppColors.textPrimary,
+        letterSpacing: 2.0,
+      );
 
-  static const TextStyle title = TextStyle(
-    color: AppColors.text,
-    fontSize: 48,
-    fontWeight: FontWeight.w900,
-    letterSpacing: 8.0,
-    fontFamily: 'Courier', 
-  );
+  static TextStyle get title => GoogleFonts.courierPrime(
+        fontSize: 22,
+        fontWeight: FontWeight.bold,
+        color: AppColors.textPrimary,
+      );
 
-  static const TextStyle buttonText = TextStyle(
-    color: AppColors.text,
-    fontSize: 20,
-    fontWeight: FontWeight.bold,
-    letterSpacing: 2.0,
-    fontFamily: 'Courier',
-  );
+  static TextStyle get body => GoogleFonts.courierPrime(
+        fontSize: 16,
+        color: AppColors.textPrimary,
+      );
+
+  static TextStyle get bodySecondary => GoogleFonts.courierPrime(
+        fontSize: 14,
+        color: AppColors.textSecondary,
+      );
+
+  static TextStyle get buttonText => GoogleFonts.courierPrime(
+        fontSize: 16,
+        fontWeight: FontWeight.bold,
+        color: AppColors.textPrimary,
+        letterSpacing: 1.5,
+      );
 }
